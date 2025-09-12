@@ -1,0 +1,89 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+     justify-content: space-between;
+     color: #505050;
+}
+
+.nav h3{
+    margin: 12px;
+    color: #000000;
+}
+
+
+.img-box img {
+    width: 97%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.product-item h1 {
+    text-align: center;
+    margin-bottom: 18px;
+}
+.product-card {
+    display: flex;
+    gap: 10px;
+    margin: 40px;
+}
+
+.product-item img {
+    margin: 0%;
+    width: 100%;
+}
+.winter h2{
+    font-size: 18px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.winter{
+    text-align: center;
+}
+.winter button {
+    cursor: pointer;
+    font-size: 10px;
+    background-color: #f7f6f0;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 400;
+}
+.price h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contant{
+    display: flex;
+    gap: 10px;
+}
+
+.price img {
+    width: 100%;
+}
+
+.spring{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.spring h3{
+    font-size: 16px;
+    color: #000000;
+}
+.spring h4{
+    font-size: 14px;
+    color: #000000;
+
+}
