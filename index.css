@@ -86,4 +86,15 @@
     font-size: 14px;
     color: #000000;
 
+
+}
+@media (max-width: 768px) {
+  .nav {
+    flex-wrap: nowrap;          
+    overflow-x: auto;           
+  }
+  .nav ul {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
 }
