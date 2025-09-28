@@ -28,14 +28,24 @@
     margin-left: 20px;
     margin-right: 10px;
 }
-
+.contant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-card{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .product-item h1 {
     text-align: center;
     margin-bottom: 18px;
 }
 .product-card {
     display: flex;
-    gap: 10px;
+    gap: 40px;
     margin: 40px;
 }
 
@@ -67,7 +77,7 @@
 }
 .contant{
     display: flex;
-    gap: 10px;
+    gap: 40px;
 }
 
 .price img {
