@@ -37,16 +37,13 @@
     max-width: 100%;
     display: flex;
     align-items: center;
+    gap: 40px;
     justify-content: center;
 }
 .product-item h1 {
     text-align: center;
     margin-bottom: 18px;
 }
-.product-card {
-    display: flex;
-    gap: 40px;
-    margin: 40px;
 }
 
 .product-item img {
@@ -78,6 +75,9 @@
 .contant{
     display: flex;
     gap: 40px;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .price img {
@@ -108,3 +108,4 @@
     overflow-x: auto;
   }
 }
+
